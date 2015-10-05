@@ -1,0 +1,10 @@
+<configuration>
+  <property>
+    <name>fs.default.name</name>
+    <value>hdfs://172.31.40.144:9000</value>
+  </property>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>/home/ubuntu/hadoop/tmp</value>
+  </property>
+</configuration>

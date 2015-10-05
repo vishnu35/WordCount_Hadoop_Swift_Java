@@ -1,0 +1,14 @@
+#Added at the end of the file
+
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+export HADOOP_PREFIX=/home/ubuntu/hadoop
+export PATH="/home/ubuntu/hadoop/etc/hadoop:/home/ubuntu/hadoop/bin:/usr/lib/jvm/java-7-openjdk-amd64/bin:~/hadoop/sbin:$PATH"
+export HADOOP_HOME=/home/ubuntu/hadoop
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_HDFS_HOME=$HADOOP_HOME
+export YARN_HOME=$HADOOP_HOME
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+export YARN_CONF_DIR=$HADOOP_HOME/etc/hadoop
+eval $(ssh-agent);
+ssh-add /home/ubuntu/cs553as2.pem
